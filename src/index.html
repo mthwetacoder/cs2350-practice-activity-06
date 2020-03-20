@@ -5,11 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="stylesheets/application.css">
-  <title>Document Title</title>
+  <title>A Simpler Form</title>
 </head>
+
 <body>
-  <h1>Welcome to CS 2350!</h1>
-  
+  <form id="myForm" onsubmit="displayMessage()">
+    <div class="form-group">
+      <label for="Name">Name</label>
+      <input type="text" class="form-control" id="Name" placeholder="Please enter your name" required autofocus>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-primary">Reset</button>
+  </form>
+
   <script src="javascripts/application.js"></script>
 </body>
 </html>

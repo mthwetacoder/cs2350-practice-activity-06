@@ -1,0 +1,4 @@
+installs:
+
+    npm install bootstrap
+    npm install jquery popper.js

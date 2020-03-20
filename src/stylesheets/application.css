@@ -1,7 +1,25 @@
 @import url('~normalize.css/normalize.css');
+@import url("../../node_modules/bootstrap/dist/css/bootstrap.css");
 
 * {
   box-sizing: border-box;
 }
 
 /* TODO */
+
+body {
+  background-color: rgb(116, 116, 116);
+}
+
+form {
+  background-image: linear-gradient(to right, white, lightblue);
+  padding: 1.5rem 1.5rem;
+  margin: 10rem auto;
+  width: 30rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+}
+
+form input {
+  background-image: linear-gradient(to right, lightblue, white);
+}
